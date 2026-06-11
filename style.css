@@ -1,0 +1,38 @@
+header{
+    height: 100px;
+    background-color: rgb(174, 199, 245);
+    display:flex;
+    padding:30px 
+}
+.logo{
+    height:auto;
+    width:300px;
+    border-radius: 15px;
+    background-color: rgb(29, 51, 92);
+}
+nav{
+    height:80px;
+    background-color: beige;
+}
+main{
+    background-color: cornflowerblue;
+    display:flex;
+    padding:50px;
+    gap:50px;
+    
+}
+.section-right, .section-left {
+
+    height:400px;
+    width:50%;
+    background-color:bisque;
+    border-radius: 15px;
+    padding: 40px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+footer{
+    height: 100px;
+    background-color: rgb(174, 199, 245);
+
+}
