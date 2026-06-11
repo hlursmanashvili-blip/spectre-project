@@ -1,21 +1,38 @@
 header{
     height: 100px;
-    background-color: rgb(174, 199, 245);
+    background-color: rgb(174, 245, 189);
     display:flex;
     padding:30px 
 }
-.logo{
-    height:auto;
-    width:300px;
-    border-radius: 15px;
-    background-color: rgb(29, 51, 92);
-}
+
 nav{
     height:80px;
     background-color: beige;
+     display: flex;
+    justify-content: center;
+    align-items: center;
 }
+ul{
+    list-style:none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:30px;
+
+}
+ul li{
+    background-color: rgb(31, 145, 88);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(247, 247, 247);
+    font-family:sans-serif;
+}
+
 main{
-    background-color: cornflowerblue;
+    background-color: rgb(195, 241, 207);
     display:flex;
     padding:50px;
     gap:50px;
@@ -33,6 +50,6 @@ main{
 }
 footer{
     height: 100px;
-    background-color: rgb(174, 199, 245);
+    background-color: rgb(174, 245, 192);
 
 }
